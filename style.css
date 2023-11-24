@@ -1,0 +1,729 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Inter:wght@400;700&family=Lexend+Deca:wght@300;400&family=Overpass:wght@300;600&family=Palanquin+Dark:wght@700&family=Poppins:wght@400;600&family=Public+Sans:wght@300;400;700&family=Roboto:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Mansalva&family=Palanquin+Dark:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: url(../images2/background\ img.png);
+  width: 100%;
+  height: 780px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 2rem;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  /* align-items: center; */
+  gap: 3rem;
+  text-decoration: none;
+  font-family: "Jost";
+  font-weight: 400;
+}
+
+.btn {
+  translate:0 -.2rem;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  /* margin-bottom: 90rem; */
+}
+
+.navbar ul li a:hover {
+  /* text-decoration: none; */
+  color: greenyellow;
+}
+.navbar button {
+  background-color: #efab29;
+  width: 5rem;
+  /* padding: 0.2rem; */
+  border: none;
+  border-radius: 0.2rem;
+  color: white;
+  height: 2rem;
+  margin-bottom: 7rem;
+}
+.content1 {
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5rem;
+  /* border: 1px solid white; */
+}
+
+.content1 h1 {
+  font-family: "Palanquin Dark";
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.para2 {
+  padding: 0 25px;
+  margin-top: 0.5rem;
+  line-height: 20px;
+  font-family: "Jost";
+  font-size: 13px;
+  /* border: 1px solid white; */
+}
+
+.content1 button {
+  background-color: #efab29;
+  width: 8rem;
+  /* padding: 0.2rem; */
+  border: none;
+  border-radius: 0.2rem;
+  color: white;
+  height: 2rem;
+  margin-top: 3rem;
+}
+
+.para1 {
+  font-size: 30px;
+  font-family: "Mansalva";
+}
+
+.topsection {
+  display: flex;
+   justify-content: center;
+   gap: 3rem;
+  /* margin-left: 6rem; */ 
+  /* width: 100%; */
+  /* height: 450px; */
+
+  /* justify-content: center;
+    align-items: center; */
+}
+.firstimage {
+  width: 15rem;
+}
+
+.image1 {
+  width: 15rem;
+}
+
+.rating1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+.rating1 img {
+  width: 85px;
+  height: 14px;
+  margin-top: 9px;
+  /* height: 20px; */
+}
+
+.firstimage p {
+  /* line-height: 2rem; */
+  width: 15rem;
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+.firstimage h3 {
+  font-family: "Palanquin Dark";
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.firstimage button {
+  width: 15rem;
+  background-color: #efab29;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  color: white;
+  margin-top: 1.5rem;
+}
+
+.secondimage {
+  width: 15rem;
+}
+.secondimage p {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+.secondimage h3 {
+  font-family: "Palanquin Dark";
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.image2 {
+  width: 15rem;
+}
+.secondimage button {
+  width: 15rem;
+  background-color: #efab29;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  color: white;
+  margin-top: 1.5rem;
+}
+.rating2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.rating2 img {
+  width: 85px;
+  height: 14px;
+  margin-top: 9px;
+}
+
+.thirdimage {
+  width: 15rem;
+}
+.image3 {
+  width: 15rem;
+}
+.thirdimage h3 {
+  font-family: "Palanquin Dark";
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.thirdimage p {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+.rating3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+.rating3 img {
+  width: 85px;
+  height: 14px;
+  margin-top: 9px;
+}
+.thirdimage button {
+  width: 15rem;
+  background-color: #efab29;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  color: white;
+  margin-top: 1.5rem;
+}
+
+.fourthimage {
+  width: 15rem;
+}
+.fourthimage p {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+.fourthimage h3 {
+  font-family: "Palanquin Dark";
+  font-weight: 500;
+  font-size: 17px;
+}
+.image4 {
+  width: 15rem;
+}
+.rating4 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.rating4 img {
+  width: 85px;
+  height: 14px;
+  margin-top: 9px;
+}
+.fourthimage button {
+  width: 15rem;
+  background-color: #efab29;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  color: white;
+  margin-top: 1.5rem;
+}
+
+.fifthimage {
+  width: 15rem;
+}
+.fifthimage p {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+.fifthimage h3 {
+  font-family: "Palanquin Dark";
+  font-weight: 500;
+  font-size: 17px;
+}
+.image5 {
+  width: 15rem;
+}
+.rating5 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+.fifthimage button {
+  width: 15rem;
+  background-color: #efab29;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  color: white;
+  margin-top: 1.5rem;
+}
+.rating5 img {
+  width: 85px;
+  height: 14px;
+  margin-top: 9px;
+}
+
+.sixthimage {
+  width: 15rem;
+}
+.sixthimage p {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+.sixthimage h3 {
+  font-family: "Palanquin Dark";
+  font-weight: 500;
+  font-size: 17px;
+}
+.image6 {
+  width: 15rem;
+}
+.rating6 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+.rating6 img {
+  width: 85px;
+  height: 14px;
+  margin-top: 9px;
+}
+.sixthimage button {
+  width: 15rem;
+  background-color: #efab29;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  color: white;
+  margin-top: 1.5rem;
+}
+
+.seventhimage {
+  width: 15rem;
+}
+.seventhimage p {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+.seventhimage h3 {
+  font-family: "Palanquin Dark";
+  font-weight: 500;
+  font-size: 17px;
+}
+.image7 {
+  width: 15rem;
+}
+.rating7 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+.rating7 img {
+  width: 85px;
+  height: 14px;
+  margin-top: 9px;
+}
+.seventhimage button {
+  width: 15rem;
+  background-color: #efab29;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  color: white;
+  margin-top: 1.5rem;
+}
+
+.eightimage {
+  width: 15rem;
+}
+.eightimage p {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+.eightimage h3 {
+  font-family: "Palanquin Dark";
+  font-weight: 500;
+  font-size: 17px;
+}
+.image8 {
+  width: 15rem;
+}
+.rating8 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+.rating8 img {
+  width: 85px;
+  height: 14px;
+  margin-top: 9px;
+}
+.eightimage button {
+  width: 15rem;
+  background-color: #efab29;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  color: white;
+  margin-top: 1.5rem;
+}
+
+span {
+  color: red;
+}
+
+.bottomsection {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  /* margin-left: 6rem; */
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+.section1 h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Mansalva";
+  color: #22cdff;
+  font-weight: 400;
+  margin-top: 3rem;
+}
+
+.section1 h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 45px;
+  font-family: "Palanquin Dark";
+  font-weight: 700;
+  margin-top: -1rem;
+}
+.generaldiv {
+  background-image: url(../images2/bg2.png);
+  height: 285vh;
+  padding: 2rem;
+}
+
+.section2 {
+  display: flex;
+  width: 100%;
+  /* width: 80vh; */
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  left: 0;
+  /* align-items: center; */
+}
+.content2 {
+  background-color: white;
+  height: 55vh;
+  text-align: center;
+  padding: 3rem;
+  position: relative;
+  margin-left: 5.7rem;
+  top: 0;
+  left: 0;
+  width: 85vh;
+  border-radius: 0.5rem;
+}
+.img2 {
+  position: relative;
+  top: 200px;
+  right: 90px;
+  margin-right: 2rem;
+  /* width: 10vh; */
+}
+ .img2 img {
+  width: 85vh;
+  height: 55vh;
+  
+}
+.content2 h2 {
+  font-family: "Palanquin Dark";
+  font-size: 35px;
+  font-weight: 400;
+  line-height: -2rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  text-align: start;
+  margin-top: -1rem;
+  /* position: absolute; */
+}
+.content2 p {
+  font-family: "Jost";
+  text-align: start;
+  line-height: 30px;
+  /* width: 70vh; */
+  /* position: absolute; */
+}
+
+.section3 {
+  margin-top: 5rem;
+  padding: 2rem;
+  /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.content3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.content3 p {
+  padding: 2rem;
+  height: 100px;
+  width: 100vh;
+  text-align: center;
+  /* margin-left: 20rem; */
+  line-height: 1.5rem;
+  font-family: "Jost";
+  font-weight: 400;
+  margin-bottom: 2rem;
+
+  /* text-wrap: 80rem; */
+}
+
+.content3 h1 {
+  font-family: "palanquin Dark";
+  font-size: 48px;
+}
+.content3 h3 {
+  font-family: "Mansalva";
+  font-weight: 700;
+  font-size: 30px;
+  color: #22cdff;
+}
+
+.name {
+  text-align: center;
+}
+.name h3 {
+  font-family: "palanquin Dark";
+}
+
+footer {
+  /* display: flex; */
+  
+  width: 100%;
+  padding: 2rem;
+  background-color: #0e2911;
+  /* height: 70vh; */
+  /* border-bottom: white solid; */
+  /* text-decoration: underline; */
+}
+
+footer p {
+  width: 50%;
+}
+.content4 {
+  color: white;
+  /* width: 60vh; */
+}
+.content4 h3 {
+  font-family: "Palanquin Dark";
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+.content3 h4 {
+  font-family: "Palanquin Dark";
+  font-weight: 500;
+  font-size: 25px;
+  margin-top: 2rem;
+
+}
+.para4{
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 6rem;
+
+}
+.content4 p {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+.arrow1{
+  position: relative;
+  top: 21rem;
+  right: 6rem;
+}
+.arrow2{
+  position: relative;
+  top: 21rem;
+  left: 6rem;
+
+}
+
+.menu {
+  /* margin-right: 5rem; */
+  color: white;
+  width: 50vh;
+  line-height: 1.5rem;
+}
+.menu h3 {
+  font-family: "Palanquin Dark";
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+.menu ul li {
+  list-style: none;
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 14px;
+}
+.menu ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+.menu2 {
+  /* margin-right: 10rem; */
+  margin-top: 4rem;
+  color: white;
+  width: 70vh;
+  margin-left: 6rem;
+}
+.menu2 ul li {
+  list-style: none;
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 14px;
+}
+.menu2 ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  
+}
+
+/* display: flex;
+    flex-direction: row; */
+.form h4 {
+  color: white;
+  font-family: "Palanquin Dark";
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 2rem;
+  /* margin-top: 2rem; */
+  /* width: 80vh; */
+}
+input {
+  width: 55vh;
+  height: 2.5rem;
+}
+.mainfooter {
+  /* border-bottom: white solid; */
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.button2 {
+  position: relative;
+  /* right: 10px;
+  top: -2px; */
+  left: 16rem;
+  bottom: 2.3rem;
+  /* bottom: px; */
+  background-color: #efab29;
+  width: 6rem;
+  /* padding: 0.2rem; */
+  border: none;
+  border-radius: 0.2rem;
+  color: white;
+  height: 2rem;
+  /* margin-top: 3rem; */
+}
+.form {
+  /* margin-bottom: 45rem; */
+  /* margin-right: 4rem; */
+  position: relative;
+
+  /* top: 0;
+  bottom: 0; */
+}
+
+.icon {
+  display: flex; 
+  flex-direction: row;
+  justify-content: flex-end;
+  color: white;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-right: 1.5rem;
+  /* width: 50vh; */
+  
+}
+.icon img{
+  /* width: 5rem; */
+  height: 15px;
+  margin-top: 0.5rem;
+}
+.icon h6{
+  font-family: "Palanquin Dark";
+  font-weight: 500;
+  font-size: 15px;
+  height: 15px;
+}
